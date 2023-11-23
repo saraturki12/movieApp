@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="card-header">
+        Movie Information
+    </div>
+    <div class="card-body">
+        <div class="movie-info">
+            <strong>Title:</strong> {{title}}
+        </div>
+        <div class="movie-info">
+            <strong>Duration:</strong> {{duration+" m"}}
+        </div>
+        <div class="movie-info">
+            <strong>Release Year:</strong> {{releaseYear}}
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-delete" (click)="onDelete()">Delete</button>
+            <button class="btn" (click)="onEdit()">Edit</button>
+        </div>
+    </div>
+</div>

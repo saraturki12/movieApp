@@ -1,0 +1,72 @@
+/* Styles specific to AddMovieComponent */
+.add-page {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+/* Example styling for form elements */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px 0px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+select {
+    width: 100%;
+    appearance: none;
+    border-radius: 3px;
+    /* Remove default styles on some browsers */
+    -webkit-appearance: none;
+    /* Remove default styles on older versions of Chrome/Safari */
+    -moz-appearance: none;
+    /* Remove default styles on Firefox */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px 0px;
+    padding-left: 10px;
+    /* font-size: 16px; */
+    /* width: 200px; */
+    cursor: pointer;
+}
+
+/* Add some styles for when the select is focused or hovered */
+select:hover,
+select:focus {
+    border-color: #666;
+}

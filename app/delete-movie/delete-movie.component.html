@@ -1,0 +1,11 @@
+<h2>Delete a Movie</h2>
+
+<div>
+  <label for="movieId">Movie ID:</label>
+  <input type="number" id="movieId" name="movieId" [(ngModel)]="movieIdToDelete">
+  <button (click)="deleteMovie()">Delete Movie</button>
+</div>
+
+<div *ngIf="deletionMessage">
+  <p>{{ deletionMessage }}</p>
+</div>

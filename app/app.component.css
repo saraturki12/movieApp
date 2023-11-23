@@ -1,0 +1,72 @@
+/* Styles for the root component (app.component) */
+
+/* Example styling for the entire page */
+body {
+  /* font-family: Arial, sans-serif; */
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Example styling for the header */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Example styling for the main content area */
+.main-content {
+  padding: 20px;
+}
+
+body {
+  /* font-family: Arial, sans-serif; */
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Box shadow for a subtle effect */
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: #000000;
+  /* Text color */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgba(225, 220, 220, 0.5);
+  /* Background color on hover */
+  color: black !important;
+}
+
+.active {
+  background-color: #007bff;
+  color: #ffffff !important;
+  font-weight: bold;
+}

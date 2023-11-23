@@ -1,0 +1,15 @@
+<h2>List of Comedy Movies</h2>
+
+<div class="movies-container" *ngIf="comedyMovies && comedyMovies.length > 0">
+  <app-movie-card *ngFor="let movie of comedyMovies" title={{movie.title}} id={{movie.id}}
+    releaseYear={{movie.releaseYear}} duration={{movie.duration}} />
+</div>
+
+<div *ngIf="comedyMovies && comedyMovies.length === 0" class="no-movies">
+  <p>No action movies available.</p>
+</div>
+
+
+<div *ngIf="!comedyMovies">
+  <p>Loading...</p>
+</div>
