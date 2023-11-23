@@ -12,7 +12,7 @@ To run the movieApp locally, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/saraturki12/final-project.git
+git clone https://github.com/saraturki12/movieApp.git
 
 Navigate to the project directory:
 cd movieApp
